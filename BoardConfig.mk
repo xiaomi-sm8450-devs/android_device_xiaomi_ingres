@@ -9,5 +9,5 @@ include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/ingres
 
-# Inherit from the proprietary version
-include vendor/xiaomi/cepheus/BoardConfigVendor.mk
+# Screen density
+TARGET_SCREEN_DENSITY := 440
