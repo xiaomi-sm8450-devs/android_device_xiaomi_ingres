@@ -16,7 +16,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     IngresWifiOverlay \
-    FrameworksResIngres
+    FrameworksResIngres \
+    SettingsResIngres
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
