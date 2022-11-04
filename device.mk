@@ -7,9 +7,6 @@
 # Inherit from xiaomi sm8450-common
 $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 
-# Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/ingres/ingres-vendor.mk)
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
